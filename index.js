@@ -1,3 +1,4 @@
 const chalk = require('chalk');
 const name = 'Elli';
-console.log(chalk.red.inverse(`${name} !!!!`));
+const lastName = 'Knayzev';
+console.log(chalk.red.bold.inverse(`${name} ${lastName} !!!!`));
